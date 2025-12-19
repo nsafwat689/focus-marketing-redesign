@@ -1,4 +1,4 @@
-mix-blend-screen filter blur-3xl  mix-blend-screen blur-3xlexport default function Home() {
+export default function Home() {
   const features = [
     { title: 'Specialized Skills', desc: 'Expert workforce trained in diverse business processes', icon: '⚙️' },
     { title: 'Cost Reduction', desc: 'Optimize operational expenses while maintaining quality', icon: '💰' },
@@ -14,14 +14,8 @@ mix-blend-screen filter blur-3xl  mix-blend-screen blur-3xlexport default functi
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-950 via-blue-950 to-slate-950 text-white overflow-hidden">
-      {/* Background Grid */}
-      <div className="fixed inset-0 z-0 opacity-10" style={{
-        backgroundImage: 'linear-gradient(rgba(59,130,246,0.5) 1px, transparent 1px), linear-gradient(90deg, rgba(59,130,246,0.5) 1px, transparent 1px)',
-        backgroundSize: '50px 50px',
-        animation: 'moveGrid 20s linear infinite'
-      }}></div>
+      <div className="fixed inset-0 z-0 opacity-10" style={{ backgroundImage: 'linear-gradient(rgba(59,130,246,0.5) 1px, transparent 1px), linear-gradient(90deg, rgba(59,130,246,0.5) 1px, transparent 1px)', backgroundSize: '50px 50px', animation: 'moveGrid 20s linear infinite' }}></div>
 
-      {/* Nav */}
       <nav className="fixed top-0 w-full bg-gradient-to-b from-slate-950/80 to-transparent backdrop-blur-lg z-50 py-4 px-6 border-b border-cyan-500/20">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <div className="flex items-center gap-2 text-2xl font-bold">
@@ -32,11 +26,11 @@ mix-blend-screen filter blur-3xl  mix-blend-screen blur-3xlexport default functi
         </div>
       </nav>
 
-      {/* Hero */}
       <section className="relative pt-40 pb-20 px-6 min-h-screen flex items-center justify-center">
         <div className="absolute inset-0 z-0">
-          <div className="absolute top-10 right-20 w-96 h-96 bg-blue-600 rounded-full mix-blend-screen filter blur-3xl opacity-20 animate-pulse"></div>
-          <div className="absolute bottom-10 left-20 w-96 h-96 bg-cyan-600 rounded-full mix-blend-screen filter blur-3xl opacity-20 animate-pulse"></div>        </div>
+          <div className="absolute top-10 right-20 w-96 h-96 bg-blue-600 rounded-full mix-blend-screen blur-3xl opacity-20 animate-pulse"></div>
+          <div className="absolute bottom-10 left-20 w-96 h-96 bg-cyan-600 rounded-full mix-blend-screen blur-3xl opacity-20 animate-pulse"></div>
+        </div>
 
         <div className="relative z-10 max-w-5xl mx-auto text-center">
           <div className="mb-8 inline-block px-4 py-2 bg-cyan-500/10 border border-cyan-500/50 rounded-full">
@@ -65,7 +59,6 @@ mix-blend-screen filter blur-3xl  mix-blend-screen blur-3xlexport default functi
         </div>
       </section>
 
-      {/* Features */}
       <section className="relative z-10 py-20 px-6">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-5xl font-bold text-center mb-16 bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">Core Capabilities</h2>
@@ -81,7 +74,6 @@ mix-blend-screen filter blur-3xl  mix-blend-screen blur-3xlexport default functi
         </div>
       </section>
 
-      {/* Stats */}
       <section className="relative z-10 py-20 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-4 gap-6">
@@ -95,13 +87,12 @@ mix-blend-screen filter blur-3xl  mix-blend-screen blur-3xlexport default functi
         </div>
       </section>
 
-      {/* Contact */}
       <section className="relative z-10 py-20 px-6">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-5xl font-bold text-center mb-16 bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">Contact</h2>
           <div className="grid md:grid-cols-2 gap-12 mb-12">
             <div className="p-8 bg-gradient-to-br from-slate-800/50 to-slate-900/50 border border-cyan-500/20 rounded-2xl">
-              <h3 className="text-cyan-400 font-bold text-lg mb-6 flex items-center gap-2"><span>🌍</span> Offices</h3>
+              <h3 className="text-cyan-400 font-bold text-lg mb-6">🌍 Offices</h3>
               <div className="space-y-4 text-gray-300 text-sm">
                 <div>
                   <p className="font-semibold text-white">US Branch</p>
@@ -114,7 +105,7 @@ mix-blend-screen filter blur-3xl  mix-blend-screen blur-3xlexport default functi
               </div>
             </div>
             <div className="p-8 bg-gradient-to-br from-slate-800/50 to-slate-900/50 border border-cyan-500/20 rounded-2xl">
-              <h3 className="text-cyan-400 font-bold text-lg mb-6 flex items-center gap-2"><span>📞</span> Connect</h3>
+              <h3 className="text-cyan-400 font-bold text-lg mb-6">📞 Connect</h3>
               <div className="space-y-4 text-sm">
                 <a href="tel:+201123494147" className="block text-gray-300 hover:text-cyan-400 transition">
                   <span className="font-semibold">Phone:</span> +20 112 349 4147
