@@ -78,10 +78,7 @@ export default function Home() {
       }`}>
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-gradient-to-br from-cyan-400 to-blue-600 rounded-lg animate-pulse" />
-            <span className="text-2xl font-bold tracking-wider">FOCUS</span>
-          </div>
-          <div className="hidden md:block text-xs text-cyan-300 font-mono tracking-widest">INFRASTRUCTURE SOLUTIONS</div>
+            <img src="https://focusformarketing.com/images/logo.png" alt="FOCUS Logo" className="h-12 w-auto" />lassName="hidden md:block text-xs text-cyan-300 font-mono tracking-widest">INFRASTRUCTURE SOLUTIONS</div>
         </div>
       </nav>
 
