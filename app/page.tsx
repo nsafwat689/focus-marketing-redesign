@@ -36,8 +36,7 @@ export default function Home() {
       <section className="relative pt-40 pb-20 px-6 min-h-screen flex items-center justify-center">
         <div className="absolute inset-0 z-0">
           <div className="absolute top-10 right-20 w-96 h-96 bg-blue-600 rounded-full mix-blend-screen filter blur-3xl opacity-20 animate-pulse"></div>
-          <div className="absolute bottom-10 left-20 w-96 h-96 bg-cyan-600 rounded-full mix-blend-screen filter blur-3xl opacity-20" style={{ animationDelay: '1s' }} className="animate-pulse"></div>
-        </div>
+          <div className="absolute bottom-10 left-20 w-96 h-96 bg-cyan-600 rounded-full mix-blend-screen filter blur-3xl opacity-20 animate-pulse"></div>        </div>
 
         <div className="relative z-10 max-w-5xl mx-auto text-center">
           <div className="mb-8 inline-block px-4 py-2 bg-cyan-500/10 border border-cyan-500/50 rounded-full">
