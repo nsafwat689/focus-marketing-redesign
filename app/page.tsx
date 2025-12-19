@@ -1,4 +1,4 @@
-export default function Home() {
+mix-blend-screen filter blur-3xl  mix-blend-screen blur-3xlexport default function Home() {
   const features = [
     { title: 'Specialized Skills', desc: 'Expert workforce trained in diverse business processes', icon: '⚙️' },
     { title: 'Cost Reduction', desc: 'Optimize operational expenses while maintaining quality', icon: '💰' },
